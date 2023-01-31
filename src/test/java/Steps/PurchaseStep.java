@@ -39,7 +39,7 @@ public class PurchaseStep {
 	@When("user input username dan password untuk purchase")
 	public void user_input_username_dan_password_untuk_purchase() throws InterruptedException {
 		
-		driver.findElement(By.id("user-name")).sendKeys("problem_user");
+		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		driver.findElement(By.id("password")).sendKeys("secret_sauce");
 		
 		Thread.sleep(2000);
